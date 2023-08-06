@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Averia Gruesa Libre", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap");
+}
+
+body {
+    font-family: "Averia Gruesa Libre", cursive;
+    color: #eeece5;
+}
+  
+
+.hidden{
+    /*요소 숨기기*/
+    display: none;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1; /*text의 z-index 보다 낮으면 뒷 배경으로 설정*/
+    opacity:80%;
+}
